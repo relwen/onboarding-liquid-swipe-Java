@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_gradient_las"
+    android:orientation="vertical"
+    tools:context=".Intro.FragmentB">
+
+
+    <ImageView
+        android:foregroundGravity="center"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300sp"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="right"
+        android:letterSpacing="-0.01"
+        android:paddingRight="10dp"
+        android:text="LOREM IPSUM"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="RtlCompat" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:text="Lorem Ipsum; lorem ipsum"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:paddingLeft="85sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginTop="55sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="@drawable/btn_gradient"
+        android:text="Get Started"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_strok_wh"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_strok_wh"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_white_p"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

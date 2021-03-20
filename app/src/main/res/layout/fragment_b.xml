@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_gradient"
+    android:orientation="vertical"
+    tools:context=".Intro.FragmentB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:orientation="horizontal"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp">
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:foregroundGravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:letterSpacing="-0.01"
+        android:text="Lorem Ipsum"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="41sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:includeFontPadding="false"
+        android:letterSpacing="-0.01"
+        android:text="DOLOR"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Lorem Ipsum "
+        android:textColor="#F8F1F1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_strok_wh"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_white_p"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/circle_strok_wh"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
